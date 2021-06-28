@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!--font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--animate-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="sidebar__main">
+    <header class="header" id="sidebar__logo">
+        <div class="header__list d-flex justify-content-between align-items-center">
+            <div class="header__logo">
+                <button>
+                    <span onclick="openNav()" id="open" class="openbtn fa fa-bars"></span>
+                    <span onclick="closeNav()" id="lose" class=" closebtn fa fa-times"></span>
+                </button>
+                <a id="header__img" href="#">
+                    <img src="./images/crest.png" alt="">
+                </a>
+            </div>
+            <div id="sidebar__menu" class="header__menu d-flex justify-content-between align-items-center">
+                <a href="#">
+                    <img src="./images/crest.png" alt="">
+                </a>
+                <nav class="nav">
+                    <a href="">Home</a>
+                    <a class="active" href="">About</a>
+                    <a href="">Courses</a>
+                    <a href="">Blog</a>
+                    <a href="">Shop</a>
+                    <a href="">Elements</a>
+                </nav>
+                <div class="header__contact">
+                    <a href="#">
+                        <span class="fa fa-phone"></span>
+                        <span>(+1) 555 234-8765</span>
+                    </a>
+                </div>
+                <div class="header__contact__social">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="carousel">
+        <div class="carousel__detail container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="carousel__item__left" data-aos="fade-right">
+                        <p>ABOUT US</p>
+                        <h1>The language teaching experts</h1>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="carousel__item__right" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
+                        <img src="./images/hero_team.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel__top">
+            <img src="./images/yellow_top_wave_01.png" alt="">
+        </div>
+        <div class="carousel__bottom">
+            <img src="./images/Violet_top_left_wave.png" alt="">
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container products__top">
+            <div class="row pt-5">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card product__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="100" data-aos-offset="0">
+                        <img src="./images/teacher_1.jpg" alt="">
+                        <div class="card-body">
+                            <p class="product__top">ITALIAN</p>
+                            <h1 class="product__middle">July Roberts</h1>
+                            <p class="product__bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card product__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
+                        <img src="./images/teacher_2.jpg" alt="">
+                        <div class="card-body">
+                            <p class="product__top">ITALIAN</p>
+                            <h1 class="product__middle">July Roberts</h1>
+                            <p class="product__bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card product__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <img src="./images/teacher_3.jpg" alt="">
+                        <div class="card-body">
+                            <p class="product__top">ITALIAN</p>
+                            <h1 class="product__middle">July Roberts</h1>
+                            <p class="product__bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card product__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="700" data-aos-offset="0">
+                        <img src="./images/teacher_4.jpg" alt="">
+                        <div class="card-body">
+                            <p class="product__top">ITALIAN</p>
+                            <h1 class="product__middle">July Roberts</h1>
+                            <p class="product__bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card product__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="100" data-aos-offset="0">
+                        <img src="./images/teacher_5.jpg" alt="">
+                        <div class="card-body">
+                            <p class="product__top">ITALIAN</p>
+                            <h1 class="product__middle">July Roberts</h1>
+                            <p class="product__bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card product__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
+                        <img src="./images/teacher_6.jpg" alt="">
+                        <div class="card-body">
+                            <p class="product__top">ITALIAN</p>
+                            <h1 class="product__middle">July Roberts</h1>
+                            <p class="product__bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card product__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <img src="./images/teacher_7.jpg" alt="">
+                        <div class="card-body">
+                            <p class="product__top">ITALIAN</p>
+                            <h1 class="product__middle">July Roberts</h1>
+                            <p class="product__bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card product__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="700" data-aos-offset="0">
+                        <img src="./images/teacher_8.jpg" alt="">
+                        <div class="card-body">
+                            <p class="product__top">ITALIAN</p>
+                            <h1 class="product__middle">July Roberts</h1>
+                            <p class="product__bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products__bottom">
+            <img src="./images/Wave_White_bottom_right_shape_01.png" alt="">
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact__top container">
+            <div class="contact__list d-flex">
+                <div class="contact__item__img" data-aos="fade-right">
+                    <div class="contact__img">
+                        <img src="http://tabula.bold-themes.com/wavy/wp-content/uploads/sites/3/2019/04/conatct_inner.png"
+                            alt="">
+                    </div>
+                </div>
+                <div class="contact__item__form" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="300" data-aos-offset="0">
+                    <div class="contact__form">
+                        <h1>Find Your Course</h1>
+                        <div class="contact__detail__name">
+                            <div class="contact__name">
+                                <input type="text" placeholder="Name">
+                                <span class="fa fa-user"></span>
+                            </div>
+                            <div class="contact__email">
+                                <input type="text" placeholder="Email">
+                                <span class="fa fa-envelope"></span>
+                            </div>
+                        </div>
+                        <div class="contact__detail__option">
+                            <div class="custom-select">
+                                <span class="fa fa-graduation-cap"></span>
+                                <select>
+                                    <option value="0">English</option>
+                                    <option value="1">English</option>
+                                    <option value="2">French</option>
+                                    <option value="3">Spanish</option>
+                                    <option value="4">German</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="contact__detail__message">
+                            <div class="contact__message">
+                                <span class="fa fa-sms"></span>
+                                <textarea name="" id="" cols="40" rows="10" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="contact__detail__button">
+                            <div class="contact__button">
+                                <a href="#">SEND</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact__bottom">
+            <img src="./images/accent_bottom_wave_01.png" alt="">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="100" data-aos-offset="0">
+                    <h1 class="footer__title">Contact us</h1>
+                    <div class="footer__contact">
+                        <div>
+                            <span class="fa fa-map-marker-alt"></span>
+                            <span>Franklin St, Greenpoint Ave</span>
+                        </div>
+                        <div>
+                            <span class="fa fa-phone"></span>
+                            <span>+2342 5446 67</span>
+                        </div>
+                        <div>
+                            <span class="fa fa-clock"></span>
+                            <span>Monday - Friday: 8 AM - 5 PM</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="300" data-aos-offset="0">
+                    <h1 class="footer__title">Quick Links</h1>
+                    <div class="footer__quickLink">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Schedule</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="500" data-aos-offset="0">
+                    <h1 class="footer__title">About</h1>
+                    <div class="footer__quickLink">
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Get qoute</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="700" data-aos-offset="0">
+                    <div class="footer__newsletter">
+                        <h1 class="footer__title">Newsletter</h1>
+                        <input class="footer__email" type="email" name="email" placeholder="Your email" required>
+                        <input class="footer__submit" type="submit" value="SUBSCRIBE">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <!--animete-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
